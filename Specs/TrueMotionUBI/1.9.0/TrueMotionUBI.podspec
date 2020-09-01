@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 	spec.author = 'TrueMotion'
 	spec.platform = :ios, "11.0"
 	spec.swift_version = "5.2"
-	spec.source  = { :http => "https://censiodev.jfrog.io/censiodev/cocoapods-local/TrueMotionUBI/TrueMotionUBI-1.0.0.tar.gz" }
+	spec.source  = { :http => "https://censio.bintray.com/generic/TrueMotionUBI/TrueMotionUBI-1.9.0.tar.gz" }
 	spec.vendored_frameworks = "TrueMotionUBI.framework"
 	spec.dependency 'TrueMotionCore', '1.4.1'
 	spec.dependency 'TrueMotionCommon', '1.9.0'
