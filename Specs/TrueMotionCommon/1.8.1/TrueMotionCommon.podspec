@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name = "TrueMotionCommon"
-	spec.version = "1.9.0"
+	spec.version = "1.8.1"
 	spec.summary = "TrueMotion Common SDK"
 
 	spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 	spec.author = 'TrueMotion'
 	spec.platform = :ios, "11.0"
 	spec.swift_version = "5.2"
-	spec.source  = { :http => "https://censio.bintray.com/generic/TrueMotionCommon/TrueMotionCommon-1.9.0.tar.gz" }
+	spec.source  = { :http => "https://censio.bintray.com/generic/TrueMotionCommon/TrueMotionCommon-1.8.1.tar.gz" }
 	spec.vendored_frameworks = "TrueMotionCommon.framework"
 	spec.dependency 'TrueMotionCore', '1.4.1'
 	spec.dependency 'RxSwift', '5.1.1'
