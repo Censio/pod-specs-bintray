@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 	spec.author = 'TrueMotion'
 	spec.platform = :ios, "11.0"
 	spec.swift_version = "5.2"
-	spec.source  = { :http => "https://censiodev.jfrog.io/censiodev/cocoapods-local/TrueMotionSensorEngineAdapter/TrueMotionSensorEngineAdapter-1.11.0.tar.gz" }
+	spec.source  = { :http => "https://censio.bintray.com/generic/TrueMotionSensorEngineAdapter/TrueMotionSensorEngineAdapter-1.11.0.tar.gz" }
 	spec.vendored_frameworks = "TrueMotionSensorEngineAdapter.framework"
 	spec.dependency 'RxSwift', '~> 5.0'
 end
