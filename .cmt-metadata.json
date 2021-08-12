@@ -1,0 +1,19 @@
+{
+    "name": "pod-specs-bintray",
+    "description": "",
+    "owner": "Nikolai",
+    "team_owner": "MobilePlatform",
+    "slack_channel": "#public-mobile-platform",
+    "platform": "Mobile",
+    "usage": "Prod",
+    "python3": "",
+    "gitflow": {
+        "enabled": "N",
+        "version": "N/A"
+    },
+    "sonarqube_status": "",
+    "runbook": {
+        "status": "",
+        "url": ""
+    }
+}
